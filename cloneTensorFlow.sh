@@ -8,7 +8,7 @@ INSTALL_DIR=$PWD
 cd $HOME
 git clone https://github.com/tensorflow/tensorflow.git
 cd tensorflow
-git checkout v1.0.1
+git checkout v1.2.0
 patch -p1 < $INSTALL_DIR/patches/tensorflow.patch
 
 
