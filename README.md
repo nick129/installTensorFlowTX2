@@ -16,7 +16,7 @@ Note: This procedure was derived from these discussion threads:
 <li>https://github.com/tensorflow/tensorflow/issues/851</li>
 <li>http://stackoverflow.com/questions/39783919/tensorflow-on-nvidia-tx1/</li>
 <li>https://devtalk.nvidia.com/default/topic/1000717/tensorflow-on-jetson-tx2/</li>
-<li>/home/nvidia/Desktop/dumy/tensorflow.patch</li>
+<li>https://github.com/tensorflow/tensorflow/issues/9697</li>
 </ul>
 
 TensorFlow should be built in the following order:
