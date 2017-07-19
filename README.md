@@ -1,3 +1,21 @@
+# Tensorflow 1.2.1 + Jestson TX2
+### Prerequisites
+    * JetPack 3.0 (Ubuntu 16.04, CUDA 9.0, CUDNN 5.1, gcc 5.4)
+    * Download and unzip bazel-0.5.2-dist at /home
+    * git clone tensorflow && git checkout v1.2.1 at /home
+
+### Install
+    * Change to the Repo, run installDependencies.sh
+    * Change to directory bazel-0.5.2-dist，sudo ./compile.sh && cp -rf output/bazel /usr/local/bin
+    * Change to directory tensorflow，using tensorflow.patch  to modify workspace.bzl: patch -p1 < tensorflow.patch
+    * Change to the Repo, run setTensorFlowEV.sh and buildTensorFlow.sh
+    * Change to the Repo, Run packageTensorFlow.sh
+    * Install complied Tensorflow： pip install $HOME/wheel file
+
+### Test
+    * MNIST
+    * mobileNet
+
 # installTensorFlowTX2
 April 1, 2017
 Install TensorFlow v1.2.0 on NVIDIA Jetson TX2 Development Kit

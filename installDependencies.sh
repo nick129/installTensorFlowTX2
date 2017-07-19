@@ -1,5 +1,5 @@
 #!/bin/bash
-# NVIDIA Jetson TX1
+# NVIDIA Jetson TX2
 # Install TensorFlow dependencies
 # Install Java
 sudo add-apt-repository ppa:webupd8team/java
