@@ -9,7 +9,7 @@
     * Change to directory bazel-0.5.2-dist，sudo ./compile.sh && cp -rf output/bazel /usr/local/bin
     * Change to directory tensorflow，using tensorflow.patch  to modify workspace.bzl: patch -p1 < tensorflow.patch
     * Change to the Repo, run setTensorFlowEV.sh and buildTensorFlow.sh
-    * Change to the Repo, Run packageTensorFlow.sh
+    * Change to the Repo, run packageTensorFlow.sh
     * Install complied Tensorflow： pip install $HOME/wheel file
 
 ### Test
